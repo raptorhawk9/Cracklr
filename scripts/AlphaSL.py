@@ -5,7 +5,7 @@ def AlphaSL():
   while len(key_word) <= 10:
     key_word += key_word
 
-  while len(site_name) <= 2 * (len(key_word)):
+  while len(site_name) <= 4 * (len(key_word)):
     site_name += site_name
 
   x = 2 if "o" in site_name else 1
